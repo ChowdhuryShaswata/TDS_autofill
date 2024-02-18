@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['web-production-70b0.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-70b0.up.railway.app/']
 
 ROOT_URLCONF = 'datagenerator.urls'
 
